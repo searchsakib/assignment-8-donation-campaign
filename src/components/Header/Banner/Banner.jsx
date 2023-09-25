@@ -3,7 +3,7 @@ const Banner = () => {
     <div
       className="hero w-full h-[600px]  mb-[100px]"
       style={{
-        backgroundImage: 'url(./images/background.png)',
+        backgroundImage: 'url(/images/background.png)',
       }}
     >
       <div className="col-start-1 row-start-1 h-full w-full bg-white bg-opacity-95 "></div>
