@@ -8,7 +8,7 @@
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_color": "#0052FF",
-    "price": 290
+    "price": "$190"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_color": "#FF444A",
-    "price": 290
+    "price": "$290"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_color": "#79C23F",
-    "price": 290
+    "price": "$390"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_color": "#F87147",
-    "price": 290
+    "price": "$490"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_color": "#F87147",
-    "price": 290
+    "price": "$490"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_color": "#79C23F",
-    "price": 290
+    "price": "$390"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_color": "#FF444A",
-    "price": 290
+    "price": "$290"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_color": "#0052FF",
-    "price": 290
+    "price": "$190"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_color": "#0052FF",
-    "price": 290
+    "price": "$190"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_color": "#FF444A",
-    "price": 290
+    "price": "$290"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_color": "#79C23F",
-    "price": 290
+    "price": "$390"
   },
   {
     "id": 12,
@@ -129,6 +129,6 @@
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_color": "#F87147",
-    "price": 290
+    "price": "$490"
   }
 ]
