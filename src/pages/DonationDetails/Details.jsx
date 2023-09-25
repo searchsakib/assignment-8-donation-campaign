@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Details = ({ donationDetails }) => {
-  const { image_big, title, description, text_color } = donationDetails;
+  const { image_big, title, description, text_color, price } = donationDetails;
 
   return (
     <div className="max-w-[1320px] mx-auto">
@@ -14,14 +14,17 @@ const Details = ({ donationDetails }) => {
             layout="fill"
           />
 
-          <div className="absolute bottom-0 left-0 right-0 bg-[#0B0B0B80] opacity-60 h-[130px]"></div>
+          <div className="absolute bottom-0 left-0 right-0 bg-[#0B0B0B80] opacity-60 h-[70px] md:h-[100px] lg:h-[130px]"></div>
 
-          <div className="absolute bottom-8 left-9 right-0 flex items-center justify-start h-16">
+          <div
+            className="absolute lg:bottom-8 lg:left-9 md:bottom-4 md:left-7 
+          bottom-1 left-3 right-0 flex items-center justify-start h-16"
+          >
             <button
-              className=" text-white px-[26px] py-4 rounded shadow-md w-fit"
+              className=" text-white text-xs md:text-lg lg:text-lg lg:px-[26px] lg:py-4 md:px-[20px] md:py-3 px-3 py-2 rounded shadow-md w-fit"
               style={{ backgroundColor: `${text_color}` }}
             >
-              Donate $290
+              Donate {price}
             </button>
           </div>
         </div>
