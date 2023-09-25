@@ -1,7 +1,12 @@
 import React from 'react';
+import swal from 'sweetalert';
 
 const Details = ({ donationDetails }) => {
   const { image_big, title, description, text_color, price } = donationDetails;
+
+  const handleDonate = () => {
+    swal('Good job!', "You've Donated successfully!", 'success');
+  };
 
   return (
     <div className="max-w-[1320px] mx-auto">
@@ -21,6 +26,7 @@ const Details = ({ donationDetails }) => {
           bottom-1 left-3 right-0 flex items-center justify-start h-16"
           >
             <button
+              onClick={handleDonate}
               className=" text-white text-xs md:text-lg lg:text-lg lg:px-[26px] lg:py-4 md:px-[20px] md:py-3 px-3 py-2 rounded shadow-md w-fit"
               style={{ backgroundColor: `${text_color}` }}
             >
