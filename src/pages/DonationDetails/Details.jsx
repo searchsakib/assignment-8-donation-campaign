@@ -5,7 +5,7 @@ const Details = ({ donationDetails }) => {
 
   return (
     <div className="max-w-[1320px] mx-auto">
-      <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 mt-20">
+      <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 mt-20 px-6 md:px-10 lg:px-10 xl:px-0">
         <div className="relative -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
           <img
             className="w-full"
