@@ -5,7 +5,8 @@
     "image_big": "https://i.ibb.co/9ZLnFY8/health3.jpg",
     "category": "Health",
     "title": "Clean Water for Children",
-    "price": 290
+    "price": 290,
+    "description": "Help provide clean and safe drinking water to children in need. Your donation will support projects that install water purification systems and ensure access to clean drinking water for children in underserved communities."
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "image_big": "https://i.ibb.co/VmtLJfC/education3.png",
     "category": "Education",
     "title": "Good Education",
-    "price": 290
+    "price": 290,
+    "description": "Support quality education initiatives to empower children's futures. Your donation will fund educational programs, school supplies, and teacher training to provide better learning opportunities for children in need."
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "image_big": "https://i.ibb.co/1Kj10wC/clothing3.jpg",
     "category": "Clothing",
     "title": "Used Clothing Drive",
-    "price": 290
+    "price": 290,
+    "description": "Donate gently-used clothing to those in need and make a difference. Your contribution will help provide warm clothing to individuals and families facing hardships during cold seasons."
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "image_big": "https://i.ibb.co/zsFfnwz/food3.jpg",
     "category": "Food",
     "title": "Better Food for Everyone",
-    "price": 290
+    "price": 290,
+    "description": "Contribute to food programs to provide nutritious meals to the hungry. Your donation will support food banks and initiatives that ensure everyone has access to quality and healthy food."
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "image_big": "https://i.ibb.co/zsFfnwz/food3.jpg",
     "category": "Food",
     "title": "Better Food for Everyone",
-    "price": 290
+    "price": 290,
+    "description": "Contribute to food programs to provide nutritious meals to the hungry. Your donation will support food banks and initiatives that ensure everyone has access to quality and healthy food."
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "image_big": "https://i.ibb.co/1Kj10wC/clothing3.jpg",
     "category": "Clothing",
     "title": "Used Clothing Drive",
-    "price": 290
+    "price": 290,
+    "description": "Donate gently-used clothing to those in need and make a difference. Your contribution will help provide warm clothing to individuals and families facing hardships during cold seasons."
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "image_big": "https://i.ibb.co/VmtLJfC/education3.png",
     "category": "Education",
     "title": "Good Education",
-    "price": 290
+    "price": 290,
+    "description": "Support quality education initiatives to empower children's futures. Your donation will fund educational programs, school supplies, and teacher training to provide better learning opportunities for children in need."
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "image_big": "https://i.ibb.co/9ZLnFY8/health3.jpg",
     "category": "Health",
     "title": "Clean Water for Children",
-    "price": 290
+    "price": 290,
+    "description": "Help provide clean and safe drinking water to children in need. Your donation will support projects that install water purification systems and ensure access to clean drinking water for children in underserved communities."
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "image_big": "https://i.ibb.co/9ZLnFY8/health3.jpg",
     "category": "Health",
     "title": "Clean Water for Children",
-    "price": 290
+    "price": 290,
+    "description": "Help provide clean and safe drinking water to children in need. Your donation will support projects that install water purification systems and ensure access to clean drinking water for children in underserved communities."
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "image_big": "https://i.ibb.co/VmtLJfC/education3.png",
     "category": "Education",
     "title": "Good Education",
-    "price": 290
+    "price": 290,
+    "description": "Support quality education initiatives to empower children's futures. Your donation will fund educational programs, school supplies, and teacher training to provide better learning opportunities for children in need."
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "image_big": "https://i.ibb.co/1Kj10wC/clothing3.jpg",
     "category": "Clothing",
     "title": "Used Clothing Drive",
-    "price": 290
+    "price": 290,
+    "description": "Donate gently-used clothing to those in need and make a difference. Your contribution will help provide warm clothing to individuals and families facing hardships during cold seasons."
   },
   {
     "id": 12,
@@ -93,6 +104,7 @@
     "image_big": "https://i.ibb.co/zsFfnwz/food3.jpg",
     "category": "Food",
     "title": "Better Food for Everyone",
-    "price": 290
+    "price": 290,
+    "description": "Contribute to food programs to provide nutritious meals to the hungry. Your donation will support food banks and initiatives that ensure everyone has access to quality and healthy food."
   }
 ]
