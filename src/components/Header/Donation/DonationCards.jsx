@@ -1,6 +1,6 @@
 const DonationCards = ({ donation }) => {
-  const { id, image, category, category_bg, title, text_color, card_bg } =
-    donation;
+  const { image, category, category_bg, title, text_color, card_bg } =
+    donation || {};
 
   console.log(card_bg);
   return (
