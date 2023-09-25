@@ -14,7 +14,7 @@ const DonationCards = ({ donation }) => {
         </figure>
         <div className="card-body">
           <h4
-            className="card-title text-sm font-medium py-1 px-[10px]"
+            className="card-title text-base font-medium w-fit py-1 px-[10px] rounded "
             style={{
               backgroundColor: `${category_bg}`,
               color: `${text_color}`,
@@ -22,7 +22,13 @@ const DonationCards = ({ donation }) => {
           >
             {category}
           </h4>
-          <h2 style={{ color: `${text_color}` }}> {title} </h2>
+          <h2
+            style={{ color: `${text_color}` }}
+            className="font-semibold text-xl"
+          >
+            {' '}
+            {title}{' '}
+          </h2>
         </div>
       </div>
     </div>

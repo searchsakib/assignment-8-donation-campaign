@@ -3,7 +3,7 @@ import Donations from '../../components/Header/Donation/Donations';
 
 const Home = () => {
   return (
-    <div>
+    <div className="pb-[100px]">
       <Banner></Banner>
       <div>
         <Donations></Donations>
