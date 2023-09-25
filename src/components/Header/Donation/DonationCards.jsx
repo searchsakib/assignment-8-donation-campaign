@@ -4,10 +4,10 @@ const DonationCards = ({ donation }) => {
   const { id, image, category, category_bg, title, text_color, card_bg } =
     donation || {};
 
-  console.log(card_bg);
+  // console.log(card_bg);
   return (
     <div className="gap-6 ">
-      <Link to={`/donation/${id}`}>
+      <Link to={`/donation-details/${id}`}>
         <div
           className={`card card-compact shadow-sm`}
           style={{ backgroundColor: `${card_bg}` }}
