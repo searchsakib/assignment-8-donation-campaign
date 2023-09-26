@@ -38,7 +38,7 @@ const Donation = () => {
               ))}
             </div>
             {donation.length > 4 && (
-              <div className={dataLength === donation.length && 'hidden'}>
+              <div className={dataLength === donation.length ? 'hidden' : ''}>
                 <div className="text-center mt-10">
                   <button
                     onClick={() => setDataLength(donation.length)}
