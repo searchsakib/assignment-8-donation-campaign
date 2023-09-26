@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 //   { name: 'Group B', value: 300 },
 // ];
 
-const COLORS = ['#FF444A', '#00C49F'];
+const COLORS = ['#00C49F', '#FF444A'];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -63,14 +63,14 @@ export default function Statistics() {
   ) : (
     <div className="max-w-[1320px] mx-auto ">
       <div className="flex items-center justify-center ">
-        <PieChart width={400} height={400}>
+        <PieChart width={700} height={700} className="text-4xl font-medium">
           <Pie
             data={data}
-            cx={200}
-            cy={200}
+            cx={300}
+            cy={300}
             labelLine={false}
             label={renderCustomizedLabel}
-            outerRadius={80}
+            outerRadius={200}
             fill="#8884d8"
             dataKey="value"
           >
@@ -82,6 +82,10 @@ export default function Statistics() {
             ))}
           </Pie>
         </PieChart>
+      </div>
+      <div className="flex items-center gap-5">
+        <p>Your Donation</p>
+        <div class="border-t-[12px] border-[#00C49F]  w-[100px] rounded-sm"></div>
       </div>
     </div>
   );
