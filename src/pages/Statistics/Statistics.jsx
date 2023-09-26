@@ -78,7 +78,7 @@ export default function Statistics() {
           </Pie>
         </PieChart>
       </div>
-      <div className="flex items-center justify-center gap-5">
+      <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center gap-5">
         <div className="flex items-center gap-5">
           <p className="text-lg font-normal ">Your Donation</p>
           <div class="border-t-[12px] border-[#00C49F]  w-[100px] rounded-sm"></div>
