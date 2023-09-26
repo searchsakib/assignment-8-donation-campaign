@@ -2,10 +2,33 @@ import React from 'react';
 import swal from 'sweetalert';
 
 const Details = ({ donationDetails }) => {
-  const { image_big, title, description, text_color, price } = donationDetails;
+  const { id, image_big, title, description, text_color, price } =
+    donationDetails;
 
   const handleDonate = () => {
-    swal('Good job!', "You've Donated successfully!", 'success');
+    // swal('Donation Done!', 'See your donations at donation page', 'success');
+
+    const addMyDonationArray = [];
+
+    const myDonation = JSON.parse(localStorage.getItem('donation'));
+
+    if (!myDonation) {
+      addMyDonationArray.push(donationDetails);
+      localStorage.setItem('donation', JSON.stringify(addMyDonationArray));
+      swal('Donation Done!', 'See your donations at donation page', 'success');
+    } else {
+      if (myDonation.find((theDonation) => theDonation.id === id)) {
+        return swal(
+          'Already Donated!',
+          "Can't donate twice for the same fund",
+          'error'
+        );
+      }
+
+      addMyDonationArray.push(...myDonation, donationDetails);
+      localStorage.setItem('donation', JSON.stringify(addMyDonationArray));
+      swal('Donation Done!', 'See your donations at donation page', 'success');
+    }
   };
 
   return (
