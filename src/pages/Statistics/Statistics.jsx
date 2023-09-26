@@ -1,11 +1,6 @@
 import { PieChart, Pie, Cell } from 'recharts';
 import { useState, useEffect } from 'react';
 
-// const data = [
-//   { name: 'Group A', value: 12 },
-//   { name: 'Group B', value: 300 },
-// ];
-
 const COLORS = ['#00C49F', '#FF444A'];
 
 const RADIAN = Math.PI / 180;
@@ -62,12 +57,12 @@ export default function Statistics() {
     </p>
   ) : (
     <div className="max-w-[1320px] mx-auto ">
-      <div className="flex items-center justify-center ">
-        <PieChart width={700} height={700} className="text-4xl font-medium">
+      <div className="flex items-center justify-center">
+        <PieChart width={520} height={520} className="text-4xl font-medium">
           <Pie
             data={data}
-            cx={300}
-            cy={300}
+            cx={250}
+            cy={250}
             labelLine={false}
             label={renderCustomizedLabel}
             outerRadius={200}
@@ -83,26 +78,16 @@ export default function Statistics() {
           </Pie>
         </PieChart>
       </div>
-      <div className="flex items-center gap-5">
-        <p>Your Donation</p>
-        <div class="border-t-[12px] border-[#00C49F]  w-[100px] rounded-sm"></div>
+      <div className="flex items-center justify-center gap-5">
+        <div className="flex items-center gap-5">
+          <p className="text-lg font-normal ">Your Donation</p>
+          <div class="border-t-[12px] border-[#00C49F]  w-[100px] rounded-sm"></div>
+        </div>
+        <div className="flex items-center gap-5">
+          <p className="text-lg font-normal ">Total Donation</p>
+          <div class="border-t-[12px] border-[#FF444A]  w-[100px] rounded-sm"></div>
+        </div>
       </div>
     </div>
   );
 }
-
-// const Statistics = () => {
-// const [donation, setDonation] = useState([]);
-// const [notFound, setNotFound] = useState(false);
-
-// useEffect(() => {
-//   const myDonation = JSON.parse(localStorage.getItem('donation'));
-
-//   if (myDonation) {
-//     setDonation(myDonation);
-//   } else {
-//     setNotFound('No Donations Received Yet...');
-//   }
-// }, []);
-
-// const allData = 12;
