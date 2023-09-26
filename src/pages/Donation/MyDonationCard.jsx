@@ -19,7 +19,9 @@ const MyDonationCard = ({ donate }) => {
         >
           {category}
         </h4>
-        <h2 className="font-semibold text-xl">{title}</h2>
+        <h2 className="font-semibold text-base md:text-base lg:text-base xl:text-xl">
+          {title}
+        </h2>
         <p
           className="text-base font-semibold"
           style={{ color: `${text_color}` }}

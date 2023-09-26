@@ -28,7 +28,7 @@ const Donation = () => {
         </p>
       ) : (
         <div>
-          <div className="max-w-[1320px] mx-auto mt-20 mb-10">
+          <div className="max-w-[1320px] mx-auto mt-20 mb-20">
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  gap-6 px-6 md:px-10 lg:px-10 xl:px-0">
               {donation?.slice(0, dataLength).map((donate) => (
                 <MyDonationCard
