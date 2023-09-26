@@ -2,50 +2,39 @@ const MyDonationCard = ({ donate }) => {
   const { title, image, price, text_color, category, card_bg, category_bg } =
     donate;
   return (
-    <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-      <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
-        <img
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80"
-          alt="image"
-          className="h-full w-full object-cover"
-        />
-      </div>
-      <div className="p-6">
-        <h6 className="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
-          startups
-        </h6>
-        <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-          Lyft launching cross-platform service this week
+    <div
+      className=" card md:card-side lg:card-side bg-base-100 shadow-xl"
+      style={{ backgroundColor: `${card_bg}` }}
+    >
+      <figure>
+        <img src={image} alt="Movie" />
+      </figure>
+      <div className="card-body pl-6 pr-0 pt-0 pb-0">
+        <h4
+          className="card-title text-base font-medium w-fit py-1 px-[10px] rounded mt-6"
+          style={{
+            backgroundColor: `${category_bg}`,
+            color: `${text_color}`,
+          }}
+        >
+          {category}
         </h4>
-        <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-          Like so many organizations these days, Autodesk is a company in
-          transition. It was until recently a traditional boxed software company
-          selling licenses. Yet its own business model disruption is only part
-          of the story
+        <h2 className="font-semibold text-xl">{title}</h2>
+        <p
+          className="text-base font-semibold"
+          style={{ color: `${text_color}` }}
+        >
+          {price}
         </p>
-        <a className="inline-block" href="#">
+        <div className="card-actions justify-start">
           <button
-            className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-            type="button"
+            className="btn btn-primary border-none text-white font-medium text-xs md:text-sm lg:text-base py-1 px-2 md:py-[6px] md:px-3 lg:py-[9px] lg:px-4 mb-5 rounded"
+            //  text-xs md:text-lg lg:text-lg px-3 py-2 md:px-[20px] md:py-3 lg:px-[26px] lg:py-4
+            style={{ backgroundColor: `${text_color}` }}
           >
-            Learn More
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              stroke="currentColor"
-              aria-hidden="true"
-              className="h-4 w-4"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-              ></path>
-            </svg>
+            View Details
           </button>
-        </a>
+        </div>
       </div>
     </div>
   );
@@ -54,18 +43,18 @@ const MyDonationCard = ({ donate }) => {
 export default MyDonationCard;
 
 /*
-<div classNameName="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-6 px-6 md:px-10 lg:px-0 ">
-      <div classNameName="gap-6 ">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-6 px-6 md:px-10 lg:px-0 ">
+      <div className="gap-6 ">
         <div
-          classNameName={`card card-compact shadow-sm`}
+          className={`card card-compact shadow-sm`}
           style={{ backgroundColor: `${card_bg}` }}
         >
           <figure>
-            <img classNameName="w-full" src={image} alt="Shoes" />
+            <img className="w-full" src={image} alt="Shoes" />
           </figure>
-          <div classNameName="card-body">
+          <div className="card-body">
             <h4
-              classNameName="card-title text-base font-medium w-fit py-1 px-[10px] rounded "
+              className="card-title text-base font-medium w-fit py-1 px-[10px] rounded "
               style={{
                 backgroundColor: `${category_bg}`,
                 color: `${text_color}`,
@@ -75,7 +64,7 @@ export default MyDonationCard;
             </h4>
             <h2
               style={{ color: `${text_color}` }}
-              classNameName="font-semibold text-xl"
+              className="font-semibold text-xl"
             >
               {' '}
               {title}{' '}

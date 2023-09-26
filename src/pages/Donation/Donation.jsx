@@ -11,7 +11,7 @@ const Donation = () => {
     if (myDonation) {
       setDonation(myDonation);
     } else {
-      setNotFound('No data Found');
+      setNotFound('No Donations Received');
     }
   }, []);
 
@@ -21,16 +21,22 @@ const Donation = () => {
   return (
     <div>
       {notFound ? (
-        <p className="text-4xl font-bold text-red-500 text-center">
+        <p className="text-4xl font-bold text-red-500 text-center mt-24 mb-10 px-6 md:px-10 lg:px-10 xl:px-0">
           {' '}
           {notFound}{' '}
         </p>
       ) : (
         <div>
-          {' '}
-          {donation?.map((donate) => (
-            <MyDonationCard key={donate.id} donate={donate}></MyDonationCard>
-          ))}{' '}
+          <div className="max-w-[1320px] mx-auto mt-20 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  gap-6 px-6 md:px-10 lg:px-10 xl:px-0">
+              {donation?.map((donate) => (
+                <MyDonationCard
+                  key={donate.id}
+                  donate={donate}
+                ></MyDonationCard>
+              ))}
+            </div>
+          </div>
         </div>
       )}
     </div>

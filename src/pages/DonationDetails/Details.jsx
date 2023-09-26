@@ -15,19 +15,27 @@ const Details = ({ donationDetails }) => {
     if (!myDonation) {
       addMyDonationArray.push(donationDetails);
       localStorage.setItem('donation', JSON.stringify(addMyDonationArray));
-      swal('Donation Done!', 'See your donations at donation page', 'success');
+      swal(
+        'Donation Complete!',
+        'See your donations at Donation page',
+        'success'
+      );
     } else {
       if (myDonation.find((theDonation) => theDonation.id === id)) {
         return swal(
           'Already Donated!',
-          "Can't donate twice for the same fund",
+          "You Can't Donate to the Same Fund Twice",
           'error'
         );
       }
 
       addMyDonationArray.push(...myDonation, donationDetails);
       localStorage.setItem('donation', JSON.stringify(addMyDonationArray));
-      swal('Donation Done!', 'See your donations at donation page', 'success');
+      swal(
+        'Donation Complete!',
+        'See your donations at Donation page',
+        'success'
+      );
     }
   };
 
