@@ -1,9 +1,59 @@
+import { useEffect, useState } from 'react';
+import React, { PureComponent } from 'react';
+import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 const Statistics = () => {
-  const myDonation = JSON.parse(localStorage.getItem('donation'));
-  console.log(myDonation);
+  const [donation, setDonation] = useState([]);
+  const [notFound, setNotFound] = useState(false);
+
+  useEffect(() => {
+    const myDonation = JSON.parse(localStorage.getItem('donation'));
+
+    if (myDonation) {
+      setDonation(myDonation);
+    } else {
+      setNotFound('No Donations Received Yet...');
+    }
+  }, []);
+
+  const allData = 12;
+  const remainingValue = allData - donation.length;
+  const data = [
+    { name: 'Donation', value: donation.length },
+    { name: 'Remaining', value: remainingValue },
+  ];
+
+  const COLORS = ['#0088FE', '#00C49F'];
+  console.log(donation.length);
+
   return (
-    <div>
-      <h2>This is statistics</h2>
+    <div className="max-w-[1320px] mx-auto">
+      {notFound ? (
+        <p className="text-4xl font-bold text-green-500 text-center mt-24 mb-10 px-6 md:px-10 lg:px-10 xl:px-0">
+          {' '}
+          {notFound}{' '}
+        </p>
+      ) : (
+        <div>
+          <PieChart width={400} height={400}>
+            <Pie
+              data={data}
+              cx="50%"
+              cy="50%"
+              labelLine={false}
+              outerRadius={80}
+              fill="#8884d8"
+              dataKey="value"
+            >
+              {data.map((entry, index) => (
+                <Cell
+                  key={`cell-${index}`}
+                  fill={COLORS[index % COLORS.length]}
+                />
+              ))}
+            </Pie>
+          </PieChart>
+        </div>
+      )}
     </div>
   );
 };
