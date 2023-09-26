@@ -4,6 +4,7 @@ import MyDonationCard from './MyDonationCard';
 const Donation = () => {
   const [donation, setDonation] = useState([]);
   const [notFound, setNotFound] = useState(false);
+  const [seeAll, setSeeAll] = useState(false);
 
   useEffect(() => {
     const myDonation = JSON.parse(localStorage.getItem('donation'));
@@ -15,8 +16,9 @@ const Donation = () => {
     }
   }, []);
 
-  console.log(donation);
-  console.log(notFound);
+  // console.log(donation);
+  // console.log(notFound);
+  console.log(seeAll);
 
   return (
     <div>
@@ -35,6 +37,14 @@ const Donation = () => {
                   donate={donate}
                 ></MyDonationCard>
               ))}
+            </div>
+            <div className="text-center mt-10">
+              <button
+                onClick={() => setSeeAll(!seeAll)}
+                className="btn btn-primary border-none text-white bg-[#009444] font-semibold text-xs md:text-sm lg:text-base py-1 px-2 md:py-[6px] md:px-3 lg:py-[9px] lg:px-4 mb-5 rounded-lg"
+              >
+                See All
+              </button>
             </div>
           </div>
         </div>
