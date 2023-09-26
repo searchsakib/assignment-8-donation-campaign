@@ -6,6 +6,8 @@
     "category": "Health",
     "title": "Clean Water for Children",
     "price": "$190",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
     "text_color": "#0052FF",
     "description": "Your generous contribution plays a crucial role in transforming lives by providing clean and safe drinking water to children in need. With your donation, we can support vital projects aimed at installing state-of-the-art water purification systems. These initiatives are dedicated to ensuring sustainable access to clean, purified water for children living in underserved and vulnerable communities. Your impactful contribution will not only quench their thirst but also safeguard their health. Join us in making a profound difference in the lives of these deserving children today."
   },
@@ -16,6 +18,8 @@
     "category": "Education",
     "title": "Good Education",
     "price": "$290",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
     "text_color": "#FF444A",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   },
@@ -26,6 +30,8 @@
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "price": "$390",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
     "text_color": "#79C23F",
     "description": "Donating gently-used clothing is a powerful act of compassion that can make a significant difference in the lives of those in need. Your contribution helps ensure individuals and families facing hardships during cold seasons receive warm clothing, renewing their sense of hope and dignity. This generosity supports our mission to provide essential winter garments to vulnerable communities. Join us in this meaningful endeavor to create a lasting impact on lives, one piece of clothing at a time. Your support truly matters."
   },
@@ -36,6 +42,8 @@
     "category": "Food",
     "title": "Better Food for Everyone",
     "price": "$490",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
     "text_color": "#F87147",
     "description": "By contributing to food programs, you become a crucial part of the effort to provide nutritious meals to those facing hunger. Your donation plays a vital role in supporting food banks. With your generous support, we can strengthen our commitment to eradicating food insecurity and building a healthier, more equitable community. Join us in this mission to make a lasting impact, one meal at a time, as we strive to create a world where no one goes to bed hungry."
   },
@@ -46,6 +54,8 @@
     "category": "Food",
     "title": "Better Food for Everyone",
     "price": "$490",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
     "text_color": "#F87147",
     "description": "By contributing to food programs, you become a crucial part of the effort to provide nutritious meals to those facing hunger. Your donation plays a vital role in supporting food banks. With your generous support, we can strengthen our commitment to eradicating food insecurity and building a healthier, more equitable community. Join us in this mission to make a lasting impact, one meal at a time, as we strive to create a world where no one goes to bed hungry."
   },
@@ -56,6 +66,8 @@
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "price": "$390",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
     "text_color": "#79C23F",
     "description": "Donating gently-used clothing is a powerful act of compassion that can make a significant difference in the lives of those in need. Your contribution helps ensure individuals and families facing hardships during cold seasons receive warm clothing, renewing their sense of hope and dignity. This generosity supports our mission to provide essential winter garments to vulnerable communities. Join us in this meaningful endeavor to create a lasting impact on lives, one piece of clothing at a time. Your support truly matters."
   },
@@ -66,6 +78,8 @@
     "category": "Education",
     "title": "Good Education",
     "price": "$290",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
     "text_color": "#FF444A",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   },
@@ -76,6 +90,8 @@
     "category": "Health",
     "title": "Clean Water for Children",
     "price": "$190",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
     "text_color": "#0052FF",
     "description": "Your generous contribution plays a crucial role in transforming lives by providing clean and safe drinking water to children in need. With your donation, we can support vital projects aimed at installing state-of-the-art water purification systems. These initiatives are dedicated to ensuring sustainable access to clean, purified water for children living in underserved and vulnerable communities. Your impactful contribution will not only quench their thirst but also safeguard their health. Join us in making a profound difference in the lives of these deserving children today."
   },
@@ -86,6 +102,8 @@
     "category": "Health",
     "title": "Clean Water for Children",
     "price": "$190",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
     "text_color": "#0052FF",
     "description": "Your generous contribution plays a crucial role in transforming lives by providing clean and safe drinking water to children in need. With your donation, we can support vital projects aimed at installing state-of-the-art water purification systems. These initiatives are dedicated to ensuring sustainable access to clean, purified water for children living in underserved and vulnerable communities. Your impactful contribution will not only quench their thirst but also safeguard their health. Join us in making a profound difference in the lives of these deserving children today."
   },
@@ -96,6 +114,8 @@
     "category": "Education",
     "title": "Good Education",
     "price": "$290",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
     "text_color": "#FF444A",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   },
@@ -106,6 +126,8 @@
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "price": "$390",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
     "text_color": "#79C23F",
     "description": "Donating gently-used clothing is a powerful act of compassion that can make a significant difference in the lives of those in need. Your contribution helps ensure individuals and families facing hardships during cold seasons receive warm clothing, renewing their sense of hope and dignity. This generosity supports our mission to provide essential winter garments to vulnerable communities. Join us in this meaningful endeavor to create a lasting impact on lives, one piece of clothing at a time. Your support truly matters."
   },
@@ -116,6 +138,8 @@
     "category": "Food",
     "title": "Better Food for Everyone",
     "price": "$490",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
     "text_color": "#F87147",
     "description": "By contributing to food programs, you become a crucial part of the effort to provide nutritious meals to those facing hunger. Your donation plays a vital role in supporting food banks. With your generous support, we can strengthen our commitment to eradicating food insecurity and building a healthier, more equitable community. Join us in this mission to make a lasting impact, one meal at a time, as we strive to create a world where no one goes to bed hungry."
   }
