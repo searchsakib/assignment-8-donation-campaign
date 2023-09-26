@@ -23,7 +23,7 @@ const Statistics = () => {
     { name: 'Remaining', value: remainingValue },
   ];
 
-  const COLORS = ['#0088FE', '#00C49F'];
+  const colors = ['#00C49F', '#FF444A'];
 
   return (
     <div className="max-w-[1320px] mx-auto">
@@ -33,7 +33,37 @@ const Statistics = () => {
         </p>
       ) : (
         <div>
-          <ResponsiveContainer width="100%" height={400}>
+          <PieChart width={400} height={400}>
+            <Pie
+              dataKey="value"
+              isAnimationActive={false}
+              data={data}
+              cx="50%"
+              cy="50%"
+              outerRadius={80}
+              fill="#8884d8"
+            />
+            <Label
+              value={`${((data[0].value / allData) * 100).toFixed(2)}%`}
+              position="insideTopLeft"
+              fill="#fff"
+            />
+            <Label
+              value={`${((data[1].value / allData) * 100).toFixed(2)}%`}
+              position="outside"
+              fill="#f2a"
+            />
+          </PieChart>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Statistics;
+
+{
+  /* <ResponsiveContainer height={500}>
             <PieChart>
               <Pie
                 data={data}
@@ -52,16 +82,15 @@ const Statistics = () => {
                 ))}
                 <Label
                   value={`${((data[0].value / allData) * 100).toFixed(2)}%`}
-                  position="insideBottom"
+                  position="insideTopLeft"
                   fill="#fff"
+                />
+                <Label
+                  value={`${((data[1].value / allData) * 100).toFixed(2)}%`}
+                  position="outside"
+                  fill="#f2a"
                 />
               </Pie>
             </PieChart>
-          </ResponsiveContainer>
-        </div>
-      )}
-    </div>
-  );
-};
-
-export default Statistics;
+          </ResponsiveContainer> */
+}
